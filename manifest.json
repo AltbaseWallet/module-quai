@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "abiVersion": 1,
+  "id": "quai",
+  "name": "Quai",
+  "ticker": "QUAI",
+  "version": "0.1.9",
+  "kind": "account",
+  "networkId": "quai-mainnet-cyprus1",
+  "decimals": 8,
+  "capabilities": [],
+  "runtime": {
+    "type": "legacy"
+  },
+  "nativeRoute": "quai-js",
+  "coin": {
+    "id": "quai",
+    "name": "Quai",
+    "ticker": "QUAI",
+    "explorerUrl": "https://quaiscan.io",
+    "networkId": "quai-mainnet-cyprus1",
+    "supportsMemo": false,
+    "satsPerCoin": 100000000,
+    "walletEngine": "quai-account"
+  },
+  "icon": "icon.png"
+}
